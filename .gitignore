@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+
+# Weights & checkpoints (keep empty placeholder dirs)
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+checkpoints_ots/**
+!checkpoints_ots/
+!checkpoints_ots/.gitkeep
+weights/**
+!weights/
+!weights/.gitkeep
+
+# Data & results
+data/**
+!data/
+!data/.gitkeep
+results/
+runs/
+outputs/
+wandb/
+.lightning/
+
+# Large / binary artifacts
+*.zip
+*.rar
+*.7z
+*.pdf
+*.pptx
+*.tar
+*.gz
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Secrets
+.credentials*
+*.env
+.env*
+secrets/

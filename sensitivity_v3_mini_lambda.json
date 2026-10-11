@@ -1,0 +1,128 @@
+{
+  "config": {
+    "tau_fixed": 0.1,
+    "lambdas": [
+      0.001,
+      0.005,
+      0.01,
+      0.05
+    ],
+    "epochs": 20,
+    "dataset": "OTS_MINI"
+  },
+  "total_elapsed_sec": 18019.18581390381,
+  "results": [
+    {
+      "lambda": 0.001,
+      "tau": 0.1,
+      "tag": "lam0.001_tau0.10",
+      "elapsed_sec": 5198.093508243561,
+      "metrics": {
+        "SOTS-Outdoor": {
+          "psnr": null,
+          "ssim": null
+        },
+        "SOTS-Indoor": {
+          "psnr": null,
+          "ssim": null
+        },
+        "O-HAZE": {
+          "psnr": 15.105917115089674,
+          "ssim": 0.6393152820959593
+        },
+        "NH-HAZE": {
+          "psnr": 12.805090858345087,
+          "ssim": 0.49534792968373426
+        },
+        "I-HAZE": {
+          "psnr": 16.098123186329897,
+          "ssim": 0.7566515740489606
+        }
+      }
+    },
+    {
+      "lambda": 0.005,
+      "tau": 0.1,
+      "tag": "lam0.005_tau0.10",
+      "elapsed_sec": 6359.892054319382,
+      "metrics": {
+        "SOTS-Outdoor": {
+          "psnr": null,
+          "ssim": null
+        },
+        "SOTS-Indoor": {
+          "psnr": null,
+          "ssim": null
+        },
+        "O-HAZE": {
+          "psnr": 15.10004163434596,
+          "ssim": 0.6391966664020896
+        },
+        "NH-HAZE": {
+          "psnr": 12.799447593821297,
+          "ssim": 0.495160218668497
+        },
+        "I-HAZE": {
+          "psnr": 16.09633149513368,
+          "ssim": 0.756802067946846
+        }
+      }
+    },
+    {
+      "lambda": 0.01,
+      "tau": 0.1,
+      "tag": "lam0.010_tau0.10",
+      "metrics": {
+        "SOTS-Outdoor": {
+          "psnr": null,
+          "ssim": null
+        },
+        "SOTS-Indoor": {
+          "psnr": null,
+          "ssim": null
+        },
+        "O-HAZE": {
+          "psnr": 15.083333824247637,
+          "ssim": 0.638740206643847
+        },
+        "NH-HAZE": {
+          "psnr": 12.78863284294559,
+          "ssim": 0.4941869509180419
+        },
+        "I-HAZE": {
+          "psnr": 16.11523627398972,
+          "ssim": 0.7577401756359733
+        }
+      },
+      "skipped_training": true
+    },
+    {
+      "lambda": 0.05,
+      "tau": 0.1,
+      "tag": "lam0.050_tau0.10",
+      "elapsed_sec": 6209.044227838516,
+      "metrics": {
+        "SOTS-Outdoor": {
+          "psnr": null,
+          "ssim": null
+        },
+        "SOTS-Indoor": {
+          "psnr": null,
+          "ssim": null
+        },
+        "O-HAZE": {
+          "psnr": 15.114489362090655,
+          "ssim": 0.6382166385682361
+        },
+        "NH-HAZE": {
+          "psnr": 12.80379480800683,
+          "ssim": 0.4940299177703743
+        },
+        "I-HAZE": {
+          "psnr": 16.07208786742715,
+          "ssim": 0.7557661458863266
+        }
+      }
+    }
+  ]
+}
