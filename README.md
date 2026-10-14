@@ -1,6 +1,6 @@
 # dsp-dgcca-dehazing
 
-Minimal code release for **Geometry-Aware Physical Dehazing with Depth-Guided Cross-Modal Channel Attention** (DSP-D-26-03630, *Digital Signal Processing*, accepted 2026).
+Minimal code release for **Geometry-Aware Physical Dehazing with Depth-Guided Cross-Modal Channel Attention** (*Digital Signal Processing*, 2026, Article 106564, [DOI: 10.1016/j.dsp.2026.106564](https://doi.org/10.1016/j.dsp.2026.106564); manuscript DSP-D-26-03630).
 
 This repo keeps only **model + train/eval** scripts (no figure / sensitivity / analysis tooling).
 
@@ -39,4 +39,8 @@ RESIDE / O-HAZE / NH-HAZE etc. are **not** bundled. Prepare local paths and (for
 
 ## Citation
 
-If you use this code, please cite the DSP paper (DSP-D-26-03630). Full bibliographic details will be updated upon final publication / DOI assignment.
+If you use this code, please cite:
+
+```
+Li, W., Cui, J., Ye, M., Chen, S., & Li, Q. (2026). Geometry-Aware Physical Dehazing with Depth-Guided Cross-Modal Channel Attention. Digital Signal Processing, Article 106564. https://doi.org/10.1016/j.dsp.2026.106564
+```
